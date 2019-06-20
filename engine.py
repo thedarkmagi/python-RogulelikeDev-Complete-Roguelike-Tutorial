@@ -8,6 +8,7 @@ from render_functions import render_all, clear_all
 from input_handlers import handle_keys
 from map_objects.game_map import GameMap
 
+
 def main():
 
     screen_width = 80
@@ -30,6 +31,7 @@ def main():
     con = libtcod.console_new(screen_width, screen_height)
 
     game_map = GameMap(map_width, map_height)
+    game_map.make_map()
 
     key = libtcod.Key()
     mouse = libtcod.Mouse()
