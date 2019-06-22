@@ -1,16 +1,19 @@
 import tcod as libtcod
 import math
 
+from render_functions import RenderOrder
+
 
 class Entity:
 
-    def __init__(self, x, y, char, color, name, blocks=False, fighter=None, ai=None):
+    def __init__(self, x, y, char, color, name, blocks=False, render_order=RenderOrder.CORPSE, fighter=None, ai=None):
         self.x = x
         self.y = y
         self.char = char
         self.color = color
         self.name = name
         self.blocks = blocks
+        self.render_order = render_order
         self.fighter = fighter
         self.ai = ai
 
@@ -88,8 +91,8 @@ class Entity:
         return math.sqrt(dx ** 2 + dy ** 2)
 
 
-def get_blocking_entities_at_location(entites, destination_x, destination_y):
-    for entity in entites:
+def get_blocking_entities_at_location(entities, destination_x, destination_y):
+    for entity in entities:
         if entity.blocks and entity.x == destination_x and entity.y == destination_y:
             return entity
 
