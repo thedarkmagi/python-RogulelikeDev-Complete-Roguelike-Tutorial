@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf4a114b-fd46-4084-a530-dc250486e1e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/stairs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/engine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/entity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/input_handlers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map_objects/game_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/map_objects/game_map.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/render_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/render_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/savegame.bak" beforeDir="false" afterPath="$PROJECT_DIR$/savegame.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/savegame.dat" beforeDir="false" afterPath="$PROJECT_DIR$/savegame.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/savegame.dat.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/savegame.dat.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/savegame.dat.dir" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/savegame.dir" beforeDir="false" afterPath="$PROJECT_DIR$/savegame.dir" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/map_objects/game_map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2276">
-              <caret line="168" column="19" lean-forward="true" selection-start-line="168" selection-start-column="19" selection-end-line="168" selection-end-column="19" />
+            <state relative-caret-position="362">
+              <caret line="75" column="24" lean-forward="true" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="66" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -117,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/render_functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="78" column="81" selection-start-line="78" selection-start-column="81" selection-end-line="78" selection-end-column="81" />
+            <state relative-caret-position="225">
+              <caret line="46" column="77" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -177,8 +166,8 @@
         <option value="$PROJECT_DIR$/components/stairs.py" />
         <option value="$PROJECT_DIR$/entity.py" />
         <option value="$PROJECT_DIR$/engine.py" />
-        <option value="$PROJECT_DIR$/render_functions.py" />
         <option value="$PROJECT_DIR$/input_handlers.py" />
+        <option value="$PROJECT_DIR$/render_functions.py" />
         <option value="$PROJECT_DIR$/map_objects/game_map.py" />
       </list>
     </option>
@@ -466,8 +455,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/render_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="78" column="81" selection-start-line="78" selection-start-column="81" selection-end-line="78" selection-end-column="81" />
+        <state relative-caret-position="225">
+          <caret line="46" column="77" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
@@ -476,8 +465,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/map_objects/game_map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2276">
-          <caret line="168" column="19" lean-forward="true" selection-start-line="168" selection-start-column="19" selection-end-line="168" selection-end-column="19" />
+        <state relative-caret-position="362">
+          <caret line="75" column="24" lean-forward="true" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="66" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>

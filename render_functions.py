@@ -44,7 +44,8 @@ def render_all(con, panel, entities, player, game_map, fov_map, fov_recompute, m
                 visible = libtcod.map_is_in_fov(fov_map, x, y)
                 wall = game_map.tiles[x][y].block_sight
 
-                if visible:
+                # change back to visible to set the renderer back to expected
+                if True:
                     if wall:
                         libtcod.console_set_char_background(con, x, y, colors.get('light_wall'), libtcod.BKGND_SET)
                     else:
